@@ -28,7 +28,7 @@ int main()
   
   
   
-  /*
+  
   while(TRUE)
   {
     Lcd_Clear();
@@ -60,6 +60,6 @@ int main()
     Lcd_Clear();
  
   }
-  */
+  
   return 0;
 }

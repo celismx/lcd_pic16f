@@ -1574,6 +1574,40 @@ unsigned int a;
 pic_init();
 Lcd_Init();
 
-# 64
+
+
+
+while(1)
+{
+Lcd_Clear();
+Lcd_Set_Cursor(1,1);
+Lcd_Write_String("Proyecto Antirobo");
+Lcd_Set_Cursor(2,1);
+Lcd_Write_String("de gasolineras");
+_delay((unsigned long)((1000)*(8000000/4000.0)));
+Lcd_Clear();
+
+int numero;
+for(numero = 0; numero<= 10; numero++)
+{
+Lcd_Set_Cursor(1,1);
+Lcd_Write_String("midiendo litros:");
+Lcd_Set_Cursor(2,1);
+int NuevaVar = numero+48;
+Lcd_Write_Char(NuevaVar);
+_delay((unsigned long)((1000)*(8000000/4000.0)));
+Lcd_Clear();
+}
+Lcd_Clear();
+
+Lcd_Set_Cursor(1,1);
+Lcd_Write_String("Hecho por");
+Lcd_Set_Cursor(2,1);
+Lcd_Write_String("R. Celis");
+_delay((unsigned long)((1000)*(8000000/4000.0)));
+Lcd_Clear();
+
+}
+
 return 0;
 }

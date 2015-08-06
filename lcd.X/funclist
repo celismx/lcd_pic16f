@@ -1,7 +1,13 @@
-_pic_init: CODE, 1879 0 7
-_Lcd_Init: CODE, 1949 0 91
-_main: CODE, 1886 0 11
-_Lcd_Cmd: CODE, 1923 0 26
+_Lcd_Write_String: CODE, 1562 0 34
+_pic_init: CODE, 1492 0 7
+_Lcd_Init: CODE, 1740 0 91
+__stringtab: STRING, 3 0 6
+__stringdata: STRING, 9 0 69
+_Lcd_Write_Char: CODE, 1596 0 57
+_main: CODE, 1831 0 209
+_Lcd_Cmd: CODE, 1536 0 26
 __initialization: CODE, 2040 0 4
-_Lcd_Port: CODE, 1897 0 26
-Total: 165
+_Lcd_Set_Cursor: CODE, 1653 0 87
+_Lcd_Clear: CODE, 1499 0 11
+_Lcd_Port: CODE, 1510 0 26
+Total: 627
