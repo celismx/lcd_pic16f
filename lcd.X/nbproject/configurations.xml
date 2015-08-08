@@ -7,6 +7,7 @@
       <logicalFolder name="f1" displayName="New Folder 1" projectFiles="true">
       </logicalFolder>
       <itemPath>lcd.h</itemPath>
+      <itemPath>funciones.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
